@@ -3585,7 +3585,7 @@ class StorageManager {
             return null;
         }
     }
-    
+
 
     /**
      * Logs all the available static functions in the StorageManager class to the console.
