@@ -2,7 +2,7 @@
   <img src="https://raw.githubusercontent.com/daniseifeddine/Ds-Validator-Toolkit/main/media/logo.png" alt="Logo" width="450">
 </p>
 
-# Project Name
+# 250++ js functions
 
 ## Overview
 
@@ -23,3 +23,5 @@ This project provides a comprehensive set of classes and functions for handling 
 Each class encapsulates a set of related functions to facilitate specific tasks within the context it represents.
 
 ## This project offers a rich set of functionalities with more than 260 available functions, catering to diverse needs in web development and application monitoring.
+
+- BUILD BY DANY SEIFEDDINE
