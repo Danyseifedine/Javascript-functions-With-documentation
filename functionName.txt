@@ -1,0 +1,272 @@
+
+
+
+TOTAL FUNCTION: 189
+
+
+
+ElementHandler::class {
+
+  1-retrieveElementById()
+  2-retrieveElementByClass()
+  3-retreiveByQuery()
+  4-retreiveAllByQuery()
+  5-removeId()
+  6-updateId()
+  7-removeAllClasses()
+  8-removeClassesByNameList()
+  9-addClass()
+  10-toggleClass()
+  11-hasClass()
+  12-toggleClasses()
+  13-manageClass()
+  14-replaceClass()
+  15-getAttribute()
+  16-setAttribute()
+  17-removeAttribute()
+  18-checkAttribute()
+  19-setTextContent()
+  20-setInnerHTML()
+  21-logAvailableFunctions()
+}
+
+total = 21
+
+
+
+ElementExplorer{
+
+   1-getParent()
+   2-getAncestors()
+   3-getChildren()
+   4-getFirstChild()
+   5-getLastChild()
+   6-getNextSibling()
+   7-getPreviousSibling()
+   8-getAllSiblings()
+   9-getChildByIndex()
+   10-getDescendants()
+   11-getDescendantsByTagName()
+   12-filterByClass()
+   13-filterByAttribute()
+   14-getPositionInParent()
+   15-getInsertionPoint()
+   16-addDelegatedEventListener()
+   17-getPathToAncestor()
+   18-getClosestAncestorByTag()
+   19-getVisibleChildren()
+   20-getInvisibleChildren()
+   21-getFirstChildByTag()
+   22-getLastChildByTag()
+   23-getChildIndex()
+   24-swapElements()
+   25-isVisible()
+   26-getComputedStyle()
+   27-isElement()
+   28-isChildOf()
+   29-hasChildren()
+   30-isInvisible()
+   31-logAvailableFunctions()
+
+}
+
+total = 31
+
+
+
+ElementBuilder::class{
+
+    1-createHTML
+    2-createElementWithAttributes
+    3-appendElement
+    4-prependElement
+    5-createAndAppend
+    6-createAndPrepend
+    7-cloneElement
+    8-wrapElement
+    9-unwrapElement
+    10-createImageElement
+    11-insertBefore
+    12-insertAfter
+    13-replaceElement
+    14-emptyElement
+    15-removeElement
+    16-createTextElement
+    17-createLinkElement
+    18-createMapElement
+    19-createAreaElement
+    20-createSelectElement
+    21-createOptionElement
+    22-createOptgroupElement
+    23-createTextareaElement
+    24-createLabelElement
+    25-createFieldsetElement
+    26-createLegendElement
+    27-createTableElement
+    28-createTableRowElement
+    29-createTableHeadElement
+    30-createTableFootElement
+    31-createFormElement
+    32-createInputElement
+    33-createButtonElement
+    34-createCheckboxElement
+    35-createInputRadioElement
+    36-createListElement
+    37-createParagraphElement
+    38-createHeadingElement
+    39-createSpanElement
+    40-createHRLineElement
+    41-createDivElement
+    42-_createElementWithAttributesNS
+    43-createSVGElement
+    44-createAudioElement
+    45-createVideoElement
+    46-createCanvasElement
+    47-createIframeElement
+    48-createFooterElement
+    49-createSectionElement
+    50-createArticleElement
+    51-createTimeElement
+    52-createProgressElement
+    53-createMeterElement
+    54-createDetailsElement
+    55-createSummaryElement
+    56-createDatalistElement
+    57-createScriptElement
+    58-createMetaElement
+    59-createCommentNode
+    60-logAvailableFunctions
+
+}
+
+total = 60
+
+
+
+LoggerBase::class {
+
+    1-setLogLevel()
+    2-getLogLevel()
+    3-format()
+    4-isValidLogLevel()
+    5-addLog()
+    6-getLogs()
+    7-clearLogs()
+    8-printLogs()
+    9-logAvailableFunctions()
+}
+
+total = 9
+
+
+
+ConsoleLogger::class{
+
+    1-log()
+    2-logTable()
+    3-logGroup()
+    4-logWarning()
+    5-logError()
+    6-timeStamp()
+    8-timeEnd()
+    9-trace()
+    10-clear()
+    11-groupCollapsed()
+    12-groupEnd()
+    13-logStyled()
+    14-count()
+    15-assert()
+    16-dir()
+    17-logAvailableFunctions()
+}
+
+total = 18
+
+
+
+CustomConsoleLogger::class{
+
+    1-log()
+    2-debug()
+    3-info()
+    4-error()
+    5-warning()
+    6-logSuccess()
+    7-background()
+    8-underline()
+    9-strikeThrough()
+    10-bold()
+    11-italic()
+    12-fontSize()
+    13-blink()
+    14-shadow()
+    15-border()
+    16-emphasize()
+    17-typewriter()
+    18-rotateEmoji()
+    19-flashBackground()
+    20-logRainbow()
+    21-logAvailableFunctions()
+}
+
+total = 21
+
+
+
+EvenetLogger::class{
+
+    1-log()
+    2-emit()
+    3-on()
+    4-once()
+    5-off()
+    6-removeAllListeners()
+    7-logAvailableFunctions()
+}
+
+total = 7
+
+
+FileLogger::class{
+
+    1-setFileName()
+    2-downloadLogs()
+    3-downloadLogsByLevel()
+    4-logAvailableFunctions()
+}
+
+total = 4
+
+
+
+PerformanceLogger::class{
+
+    1-measureTime()
+    2-logMemoryUsage()
+    3-logFPS()
+    4-measureIterationsTime()
+    5-measureForEachTime()
+    6-logPageLoadTime()
+    7-logResourceLoadTime()
+    8-logAvailableFunctions()
+}
+
+total = 8
+
+
+
+AuditLogger::class{
+
+    1-logAuditAction()
+    2-logToFileSystem()
+    3-logToFileSystem()
+    4-rotateLogsIfNeeded()
+    5-logSecurityIncident()
+    6-logUserActivity()
+    7-logSystemError()
+    8-logDataAccessEvent()
+    9-logAuthorizationEvent()
+    10-logAvailableFunctions()
+}
+
+total = 10
